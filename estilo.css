@@ -1,0 +1,124 @@
+body 
+{
+    background-color: #ac85d5;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+#oso 
+{
+    position: relative;
+}
+#cabeza 
+{
+    width:120px;
+    height: 80px;
+    background-color: rgb(122, 70, 70);
+    border-radius: 50%;
+}
+#oreja-izq, #oreja-der
+ {
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    background-color: rgb(122, 70, 70);
+    border-radius: 50%;
+}
+#oreja-izq 
+{
+    left: -10px;
+}
+#oreja-der
+{
+    right: -10px;
+}
+#ojos {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#ojo-izq, #ojo-der {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+#nariz {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(212, 152, 162);
+    border-radius: 50%;
+}
+#boca {
+    width: 30px;
+    height: 15px;
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(213, 149, 160);
+    border-radius: 0 0 50% 50%;
+    border-top: 1px solid rgb(122, 70, 70);
+}
+#cuerpo {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 20px;
+    background-color: rgb(122, 70, 70);
+    border-radius: 50%;
+}
+#estomago
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: rgb(213, 149, 160);
+    margin: auto;
+    position: relative;
+    top: 20px;
+   
+}
+#manita-izq, #manita-der, #patita-izq, #patita-der {
+    position: absolute;
+    background-color: rgb(122, 70, 70);
+    border-radius: 50%;
+}
+
+#manita-izq, #manita-der{
+    width: 30px;
+    height: 60px;
+}
+
+#manita-izq {
+    top:30px;
+    left:  -15px;
+}
+
+#manita-der {
+    top: 30px;
+    right: -15px;
+}
+
+#patita-izq, #patita-der {
+    width:40px;
+    height:60px;
+}
+
+#patita-izq {
+    bottom: -40px;
+    left: 15px;
+}
+
+#patita-der {
+    bottom: -40px;
+    right:15px;
+}
